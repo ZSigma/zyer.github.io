@@ -379,7 +379,7 @@ app.get("https://zsigma.github.io/zyer.github.io/getMenu/getFreeWalk",function(r
 });
 
 //上传citywalk文件
-app.get("https://zsigma.github.io/zyer.github.io/getMenu/cityWalk",function(req,res){
+app.get("https://zsigma.github.io/zyer.github.io/%E6%9C%80%E4%B8%96%E7%95%8C/CityWalk/",function(req,res){
     res.sendFile(fs.realpathSync("../../最世界/CityWalk/html/CityWalk.html"));
 
 });
