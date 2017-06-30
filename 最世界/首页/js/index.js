@@ -189,9 +189,9 @@ function getLeft(){
 
 //页面加载完后发起ajax请求
 $(function(){
-    getData("http://127.0.0.1:8989/getMenu","",successMenu);
-    getData("http://127.0.0.1:8989/getBanner","",successBanner);
-    getData("http://127.0.0.1:8989/getFreeWalk","",successFreeWalk);
+    getData("https://zsigma.github.io/zyer.github.io/getMenu","",successMenu);
+    getData("https://zsigma.github.io/zyer.github.io/getBanner","",successBanner);
+    getData("https://zsigma.github.io/zyer.github.io/getFreeWalk","",successFreeWalk);
 });
 
 //封装ajax请求
