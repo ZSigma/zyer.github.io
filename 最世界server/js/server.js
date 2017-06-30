@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 //menu接口
-app.get("/getMenu",function(req,res){
+app.get("https://zsigma.github.io/zyer.github.io/getMenu/getMenu",function(req,res){
     var menu = {
         "err":"1",
         "msg":[
@@ -135,7 +135,7 @@ app.get("/getMenu",function(req,res){
 
 
 //banner接口
-app.get("/getBanner",function(req,res){
+app.get("https://zsigma.github.io/zyer.github.io/getMenu/getBanner",function(req,res){
     var banner = {
         err:1,
         msg:[
@@ -158,7 +158,7 @@ app.get("/getBanner",function(req,res){
 });
 
 //freeWalk接口
-app.get("/getFreeWalk",function(req,res){
+app.get("https://zsigma.github.io/zyer.github.io/getMenu/getFreeWalk",function(req,res){
     var freeWalk = {
         err:1,
         msg:[
@@ -379,11 +379,11 @@ app.get("/getFreeWalk",function(req,res){
 });
 
 //上传citywalk文件
-app.get("/cityWalk",function(req,res){
+app.get("https://zsigma.github.io/zyer.github.io/getMenu/cityWalk",function(req,res){
     res.sendFile(fs.realpathSync("../../最世界/CityWalk/html/CityWalk.html"));
 
 });
-app.get("/getCityWalk",function(req,res){
+app.get("https://zsigma.github.io/zyer.github.io/getMenu/getCityWalk",function(req,res){
     //要先写入citywalk文件
     var cityWalk = {
         err:1,
